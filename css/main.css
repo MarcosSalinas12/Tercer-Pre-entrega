@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap");
+h1, h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 80px;
+  text-align: center; }
+
+p, li, a, button {
+  font-family: "Kanit";
+  font-size: 100%;
+  font-style: oblique; }
+
+footer {
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #4f538b;
+  width: 1304px;
+  height: 15px;
+  justify-content: space-between;
+  padding: 20px 20px; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+header {
+  background-color: lightblue;
+  padding: 14px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; }
+  header .header-logo img {
+    width: 50px;
+    display: flex;
+    align-items: start; }
+  header .header-nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex; }
+  header .header-nav li {
+    padding: 0px 20px; }
+
+button {
+  border-radius: 1px;
+  background-color: lightblue;
+  padding: 20px 60px;
+  color: black;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  margin: -20px;
+  border-color: rgba(76, 132, 216, 0.815); }
+  button:hover {
+    transform: translateY(-1px);
+    background-color: cornflowerblue;
+    transition: all 0.2s linear;
+    color: white; }
+  button:disabled {
+    background-color: cornflowerblue;
+    color: white;
+    transition: all 0.2s linear;
+    cursor: default; }
+
+body {
+  background: #f3f3f4;
+  background: linear-gradient(0deg, #f3f3f4 0%, #00a4ff 100%);
+  height: 600px;
+  width: 100%; }
+
+.inicio {
+  background-color: lightblue;
+  width: 100%;
+  padding: 0px; }
+  .inicio #banner {
+    width: 1300px;
+    height: 350px;
+    background-image: url(../imagenes/banner-marco-deportes-FB-03.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    font-size: 100%; }
+  .inicio .Texto-Introduccion {
+    text-align: center;
+    margin-left: 20px;
+    font-weight: bold; }
+  .inicio div h1 {
+    text-align: center; }
+
+.muestras #tarjeta-muestras .muestras__titulo {
+  position: -20px -300px;
+  text-align: center;
+  margin: 20px; }
+
+.muestras #tarjeta-muestras .flex-container {
+  background-color: lightblue;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 900px;
+  padding: 20px;
+  justify-content: center; }
+
+.muestras #tarjeta-muestras .flex-item {
+  background-color: pink;
+  width: 42%;
+  height: 100px;
+  margin: 20px; }
+  .muestras #tarjeta-muestras .flex-item P {
+    font-size: 30px;
+    text-align: center; }
+
+.muestras #tarjeta-muestras .flex-item__imagen {
+  width: 100%; }

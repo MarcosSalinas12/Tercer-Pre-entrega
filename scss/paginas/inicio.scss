@@ -1,0 +1,28 @@
+
+.inicio{
+    background-color: $color-primario;
+    width: 100%;
+    padding: 0px;
+
+    #banner{
+    width: 1300px;
+    height: 350px;
+    background-image: url(../imagenes/banner-marco-deportes-FB-03.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    font-size: 100%;}
+
+    .Texto-Introduccion{
+        text-align: center;
+        margin-left: 20px;
+        font-weight: bold;
+    }
+    div{    
+        h1{text-align: center;}
+        }
+
+    }
+

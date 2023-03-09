@@ -1,0 +1,39 @@
+.muestras{
+    
+#tarjeta-muestras{
+      
+.muestras__titulo{
+
+        position: -20px -300px;
+        text-align: center;
+        margin: 20px;
+}
+
+.flex-container {
+    background-color:$color-primario; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 900px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.flex-item {
+
+    background-color: pink;
+    width: 42%;
+    height: 100px;
+    margin: 20px;
+    
+    P{
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
+.flex-item__imagen {
+    width: 100%    ;
+}
+  }
+}
