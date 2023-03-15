@@ -1,7 +1,3 @@
-.Main-pedidos{
-        background-color: $color-secundario;
-    }
-
 #pedidos {
     padding: 20px;
     margin: 20px;
@@ -10,5 +6,20 @@
     position: static;
     gap: 20px;
     color: white;
-    background-color: rgba(0, 0, 0, 0.486);
   }
+
+  @media (max-width:576px) {
+    main{
+      .Main-pedidos{
+        height: 920px;
+        width: 378px;
+        color: black;
+        background-color: black;
+      }
+    }
+    #pedidos{
+      background-color: rgba(0, 0, 0, 0.562);
+    }
+
+  }
+

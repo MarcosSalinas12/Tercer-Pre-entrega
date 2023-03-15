@@ -55,7 +55,52 @@ header{
 
 
 
+    @media (max-width:576px) {
+        header{
+            padding: 0px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        
+        }
+    
+        .header-nav ul{
+            list-style-type: none;
+            margin: 0px;
+            padding: 12px;
+            display: flex;
+            flex-direction: column;
+        
+        
+        }
+        
+        .header-nav li{
+            padding: 0px 20px; 
+        }
 
+        button{
+            border-radius: 1px;
+            background-color: lightblue;
+            padding: 10px 195px;
+            color: rgb(0, 0, 0);
+            cursor: pointer;
+            transition: all 0.2s linear;
+            margin: 0px;
+            border-color: rgba(76, 132, 216, 0.815);
 
+        }
+        
+        button:hover{
+            transform: translateY(-1px);
+            background-color: cornflowerblue;
+            transition: all 0.05s linear;
+            color: white;
+        }
+        
+        .texto-introduccion{
+        font-size: large;
+        color: rgb(82, 78, 78);}
 
-
+    }
+   

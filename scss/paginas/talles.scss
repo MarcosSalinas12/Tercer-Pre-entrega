@@ -13,3 +13,19 @@
   .Main-talles{
     background-color: $color-primario;
   }
+
+  .table{
+    color: white;
+  }
+
+  @media (max-width:576px) {
+  h1, h2 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+main {
+  height: 1600px;
+  width: 378px;
+}
+}

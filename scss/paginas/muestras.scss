@@ -21,14 +21,15 @@
 
 .flex-item {
 
-    background-color: cornflowerblue;
+    background-color: rgba(0, 0, 0, 0.644);
     width: 42%;
-    height: 100px;
+    height: 350px;
     margin: 20px;
     
     P{
         font-size: 30px;
         text-align: center;
+        color: white;
     }
 }
 
@@ -36,4 +37,26 @@
     width: 100%    ;
 }
   }
+}
+
+
+@media (max-width:576px) {
+.muestras{
+#tarjeta-muestras{
+     .flex-item {
+        width: 80%;
+     }
+     .flex-container {
+        padding: 0px;
+    }
+    .flex-item {
+        height: 275px;
+    }
+    }}
+    main {
+        height: 900px;
+        width: 378px;
+    }
+
+
 }
