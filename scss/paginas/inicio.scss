@@ -24,5 +24,37 @@
         h1{text-align: center;}
         }
 
+    #carouselExampleRide{
+        margin: 40px;
+        width: 1200px;
+        height: 700px;
+        align-items: center;
+
+        .carousel-inner{
+            .carousel-item{
+                height: 600x;
+
+                img{
+                    margin: auto;
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+        }
+
+        .carousel-control-next, .carousel-control-prev{
+            height: 105%;
+        }
     }
 
+    .card{
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+
+    h2{
+        text-align: center;
+        font-size: larger;
+        font-weight: bolder;
+    }
+    }

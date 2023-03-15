@@ -1,0 +1,14 @@
+.Main-pedidos{
+        background-color: $color-secundario;
+    }
+
+#pedidos {
+    padding: 20px;
+    margin: 20px;
+    display: block;
+    overflow: hidden;
+    position: static;
+    gap: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.486);
+  }

@@ -15,8 +15,8 @@ footer {
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: #4f538b;
-  width: 1304px;
+  background-color: #363a69;
+  width: 1300px;
   height: 15px;
   justify-content: space-between;
   padding: 20px 20px; }
@@ -67,7 +67,7 @@ button {
 body {
   background: #f3f3f4;
   background: linear-gradient(0deg, #f3f3f4 0%, #00a4ff 100%);
-  height: 600px;
+  height: 950px;
   width: 100%; }
 
 .inicio {
@@ -90,6 +90,26 @@ body {
     font-weight: bold; }
   .inicio div h1 {
     text-align: center; }
+  .inicio #carouselExampleRide {
+    margin: 40px;
+    width: 1200px;
+    height: 700px;
+    align-items: center; }
+    .inicio #carouselExampleRide .carousel-inner .carousel-item {
+      height: 600x; }
+      .inicio #carouselExampleRide .carousel-inner .carousel-item img {
+        margin: auto;
+        height: 100%;
+        width: 100%; }
+    .inicio #carouselExampleRide .carousel-control-next, .inicio #carouselExampleRide .carousel-control-prev {
+      height: 105%; }
+  .inicio .card {
+    padding: 5px;
+    margin-bottom: 10px; }
+  .inicio h2 {
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder; }
 
 .muestras #tarjeta-muestras .muestras__titulo {
   position: -20px -300px;
@@ -106,7 +126,7 @@ body {
   justify-content: center; }
 
 .muestras #tarjeta-muestras .flex-item {
-  background-color: pink;
+  background-color: cornflowerblue;
   width: 42%;
   height: 100px;
   margin: 20px; }
@@ -116,3 +136,30 @@ body {
 
 .muestras #tarjeta-muestras .flex-item__imagen {
   width: 100%; }
+
+.Main-pedidos {
+  background-color: #363a69; }
+
+#pedidos {
+  padding: 20px;
+  margin: 20px;
+  display: block;
+  overflow: hidden;
+  position: static;
+  gap: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.486); }
+
+#Talles {
+  padding: 20px;
+  margin: 20px;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.445);
+  overflow: hidden;
+  position: static;
+  gap: 20px;
+  color: white;
+  font-size: medium; }
+
+.Main-talles {
+  background-color: lightblue; }
